@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root {
+    --blue: #144997;
+    --red: #e92424;
+    --white:#fff;
+    --grey:#eee;
+  
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 45px;
+}
+h3{
+    font-size: 27px;
+    font-weight: 700;
+}
+h5{
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+h6 {
+
+    font-weight: 700;
+    text-align: left;
+    font-size: 16px;
+}
+section{
+    padding: 40px 0; 
+}
+
+body{
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+/* top header */
+.top-header{
+    background-color: var(--blue);
+    border-bottom: 6px solid var(--red);
+    padding: 15px 0;
+    margin-bottom: 55px;
+   
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+}
+.top-header .logo img{
+    width: 60%;
+    background-color: var(--white);
+    border-radius: 3px;  
+}
+.top-header .phone-mail a{
+    color: var(--white);
+    font-size: 23px;
+}
+.top-header .phone-mail a .fa{
+    color: var(--red);
+}
+
+
+/* top-video */
+.top-video h1{
+    color: var(--blue);
+    font-weight: 700;
+    text-align: center;
+    line-height: 60px;
+  
+}
+.top-video h1 span{
+    color: var(--red);
+    text-align: center;
+    text-decoration: underline;
+}
+.top-video h3{
+    text-align: center;
+}
+.top-video h3 span{
+    color: var(--blue);
+    text-decoration: underline;
+}
+.top-video .video{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.top-video .video h4 {
+    color: var(--blue);
+    text-decoration: underline;
+    font-weight: 700;
+    background-color: var(--blue);
+    width: 50%;
+    margin: 40px auto;
+    margin-bottom: 20px;
+    padding: 18px;
+    border-radius: 5px;
+    color: var(--white);
+   
+}
+.top-video h4 .fa{
+    padding-right: 5px;
+}
+
+.top-video .video img{
+    width: 21px;
+}
+
+.top-video .right-box {
+    margin-top: 70px;
+    background-color: var(--white);
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 5px 2px rgb(0 0 0 / 20%);
+}
+
+.top-video .right-box h2{
+    font-weight: 600;
+    font-size: 26px;
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--white);
+}
+.top-video .right-box h4 {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--red);
+}
+.top-video .container .row .col-md-4  .right-box:first-child p{
+    background-color: var(--red);
+    color: var(--white);
+    padding: 8px;
+    border-radius: 4px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+.top-video .right-box .get-discount{
+    background-image: linear-gradient(rgba(233,36,36,1),rgba(20,73,151,1));
+    color: var(--white);
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+.shortcut h1 {
+    color: var(--blue);
+    font-weight: 700;
+    line-height: 60px;
+}
+.shortcut h1 span{
+    text-decoration: underline;
+    color: var(--red);
+}
+.shortcut .right-box {
+    margin-top: 70px;
+    background-color: var(--white);
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 5px 2px rgb(0 0 0 / 20%);
+}
+.shortcut .right-box h2 {
+    font-weight: 600;
+    font-size: 26px;
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--white);
+}
+.shortcut .right-box p{
+    text-align: left;
+}
+.shortcut .right-box .min-box{
+
+    border-radius: 4px;
+    padding: 4px;
+    box-shadow: 0 2px 5px 2px rgb(0 0 0 / 12%);
+    width: 97%;
+    margin: auto;
+}
+.course-include {
+    background-color: var(--grey);
+}
+.course-include h2 {
+    color: var(--blue);
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.course-include h2 span{
+    color: var(--red);
+    text-decoration: underline;
+}
+.course-include h4{
+    font-weight: 700;
+    font-size: 25px;
+}
+.course-include h4 span{
+    text-decoration: underline;
+}
+.course-include .course-include-leftbox{
+    box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
+    padding: 35px;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 4px;
+}
+.course-include .course-include-leftbox h4{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.course-include .course-include-leftbox h2{
+    font-weight: 700;
+    line-height: 55px;
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 4px;
+}
+.course-include .course-include-leftbox span{
+    color: var(--red);
+}
+.course-include .course-include-leftbox .appintments img{
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 2px rgb(0 0 0 / 30%);
+}
+.course-include .course-include-rightbox h2{
+    font-weight: 700;
+    line-height: 34px;
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 20px;
+}
+.course-include  .course-include-rightbox h6 {
+    font-weight: 700;
+    text-align: left;
+    font-size: 19px;
+    display: inline;
+}
+.course-include .course-include-rightbox ul li{
+    margin-bottom: 15px;
+}
+.course-include .course-include-rightbox ul li .fa{
+    font-size: 20px;
+}
+.course-include .course-include-rightbox ul li h4{
+    color: var(--red);
+}
+.course-include .course-include-leftbox .screenshot{
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 2px rgb(0 0 0 / 30%);
+}
+.everything{
+    background-color: var(--white);
+    padding: 70px 0px;
+
+}
+.everything h2 {
+    font-weight: 700;
+    line-height: 55px;
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 4px;
+}
+.everything .main-every {
+    text-align: center;
+    margin: 15px 0;
+}
+.everything .main-every img {
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+.everything .box{
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #eee;
+    margin-top: 25px;
+}
+.everything .box h6{
+        text-align: center;
+        background-color: var(--red);
+        padding: 8px;
+        border-radius: 4px;
+        color: var(--white);
+}
+.everything .get-discount{
+    background-image: linear-gradient(rgba(233,36,36,1),rgba(20,73,151,1));
+    color: var(--white);
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.everything h5{
+    text-align: center;
+}
+.motivation{
+    background-image: linear-gradient(rgba(20,73,151,0.5),rgba(233,36,36,0.5)),url(../img/thinwhitebackground-min.png);
+    background-size: cover;
+    background-position: center;
+}
+.motivation {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 3px;
+    color: var(--white);
+    background-attachment: fixed;
+}
+.motivation h2{
+    background-color: transparent;
+}
+.motivation .right img{
+    border-radius: 100%;
+    width: 275px;
+    height: 275px;
+    border: 4px solid;
+}
+.faq h2 {
+    font-weight: 700;
+    line-height: 55px;
+    background-color: var(--blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 4px;
+}
+
+.faq .box {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.faq .box h4{
+        background-color: #e92424;
+        color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+}
+
+
